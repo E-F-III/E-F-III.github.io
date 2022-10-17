@@ -901,7 +901,8 @@ section {
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i,
+.contact .info .linkedin:hover i {
   background: #149ddd;
   color: #fff;
 }
@@ -1102,4 +1103,46 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+
+/* # Additional CSS */
+
+.skill-logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  /* flex-wrap: wrap; */
+}
+
+.section-title > h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.skill-logo {
+  font-size: 125px;
+  /* margin: 40px; */
+}
+
+.resume-button {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.resume-button:hover {
+  background: #37b3ed;
+  color: #fff;
+}
+
+.section-title-header {
+  /* display: flex; */
 }
