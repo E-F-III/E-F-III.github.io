@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -35,6 +35,9 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 </head>
 
 <body>
@@ -50,11 +53,15 @@
         <img src="assets/img/my-portfolio/logo-dark-square.png" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Edward Felipe III</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+          <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+          <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+          <!-- <a href="#" class="linkedin"><i class='bx bxl-twitch'></i></a> -->
+          <a href="https://github.com/E-F-III" target="_blank" class="github"><i class='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/efiii/" target="_blank" class="linkedin"><i
+              class="bx bxl-linkedin"></i></a>
+          <a href="https://www.instagram.com/edwardfelipeiii/" target="_blank" class="instagram"><i
+              class="bx bxl-instagram"></i></a>
         </div>
       </div>
 
@@ -63,7 +70,8 @@
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i><span>Portfolio</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i
+                class="bx bx-book-content"></i><span>Portfolio</span></a></li>
           <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
@@ -195,14 +203,15 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
             consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+            in iste officiis commodi quidem hic quas.</p> -->
+          <h3>Languages and Technologies</h3>
         </div>
 
         <div class="row skills-content">
 
-          <div class="col-lg-6" data-aos="fade-up">
+          <!-- <div class="col-lg-6" data-aos="fade-up">
 
             <div class="progress">
               <span class="skill">HTML <i class="val">100%</i></span>
@@ -228,9 +237,9 @@
               </div>
             </div>
 
-          </div>
+          </div> -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
             <div class="progress">
               <span class="skill">PHP <i class="val">80%</i></span>
@@ -256,7 +265,26 @@
               </div>
             </div>
 
+          </div> -->
+
+          <div class="skill-logo-container">
+
+            <i class="skill-logo devicon-javascript-plain colored"></i>
+            <i class="skill-logo devicon-python-plain colored"></i>
+            <i class="skill-logo devicon-react-original-wordmark colored"></i>
+            <i class="skill-logo devicon-redux-original colored"></i>
+
           </div>
+
+          <div class="skill-logo-container">
+            <i class="skill-logo devicon-flask-original-wordmark colored"></i>
+            <i class="skill-logo devicon-sequelize-plain-wordmark colored"></i>
+            <i class="skill-logo devicon-sqlite-plain-wordmark colored"></i>
+
+            <i class="skill-logo devicon-css3-plain-wordmark colored"></i>
+            <i class="skill-logo devicon-html5-plain-wordmark colored"></i>
+          </div>
+
 
         </div>
 
@@ -268,7 +296,11 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Resume</h2>
+          <div class="section-title-header">
+            <h2>Resume</h2>
+            <a href="/assets/static/resume.pdf" target="_blank" class="resume-button">View Resume as PDF</a>
+          </div>
+
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
@@ -314,10 +346,18 @@
               <h5>Feb 2020 - Jun 2021 | Jun 2021 - Nov 2021</h5>
               <p><em>Securitas, Honolulu, HI | Allied Universal, Honolulu, Hawaii </em></p>
               <ul>
-                <li>Reviewed personal information and other required documentation from applicants and current identification media holders utilized to conduct Criminal History Records Check and Security Threat Assessment to determine eligibility.</li>
-                <li>Maintained and protected sensitive and confidential information, evaluated door access requests and provision access, and verified validity and acceptability of government issued identification documents prior to badge issuance.</li>
-                <li>Exercised independent decision making to determine the validity of an application and supporting documentation required for airport issued identification media.</li>
-                <li>Resolved customer inquiries received from the vast airport community which are generated in-person, by phone, and electronically. Researched and gathered necessary information to respond to customers. Provided assistance in the interpretation of rules and regulations and consulted with management as applicable.</li>
+                <li>Reviewed personal information and other required documentation from applicants and current
+                  identification media holders utilized to conduct Criminal History Records Check and Security Threat
+                  Assessment to determine eligibility.</li>
+                <li>Maintained and protected sensitive and confidential information, evaluated door access requests and
+                  provision access, and verified validity and acceptability of government issued identification
+                  documents prior to badge issuance.</li>
+                <li>Exercised independent decision making to determine the validity of an application and supporting
+                  documentation required for airport issued identification media.</li>
+                <li>Resolved customer inquiries received from the vast airport community which are generated in-person,
+                  by phone, and electronically. Researched and gathered necessary information to respond to customers.
+                  Provided assistance in the interpretation of rules and regulations and consulted with management as
+                  applicable.</li>
               </ul>
             </div>
             <!-- <div class="resume-item">
@@ -364,9 +404,10 @@
             <div class="portfolio-wrap">
               <img src="assets/img/my-portfolio/projects/hike-up-logo.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="https://hike-up.herokuapp.com/" data-gallery="portfolioGallery"
-                  target=”_blank” title="View Hike Up site"><i class="bx bx-link"></i></a>
-                <a href="https://github.com/E-F-III/aA-project-Meetup-clone" title="Project Repo" target=”_blank”><i class='bx bxl-github'></i></a>
+                <a href="https://hike-up.herokuapp.com/" data-gallery="portfolioGallery" target="_blank"
+                  title="View Hike Up site"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/E-F-III/aA-project-Meetup-clone" title="Project Repo" target="_blank"><i
+                    class='bx bxl-github'></i></a>
               </div>
             </div>
           </div>
@@ -375,9 +416,10 @@
             <div class="portfolio-wrap">
               <img src="assets/img/my-portfolio/projects/yeat-logo.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="https://y-eat.herokuapp.com/" data-gallery="portfolioGallery"
-                  target=”_blank” title="View Y-Eat site"><i class="bx bx-link"></i></a>
-                <a href="https://github.com/tylernaej/YEat" title="Project Repo" target=”_blank”><i class='bx bxl-github'></i></a>
+                <a href="https://y-eat.herokuapp.com/" data-gallery="portfolioGallery" target="_blank"
+                  title="View Y-Eat site"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/tylernaej/YEat" title="Project Repo" target="_blank"><i
+                    class='bx bxl-github'></i></a>
               </div>
             </div>
           </div>
@@ -386,9 +428,10 @@
             <div class="portfolio-wrap">
               <img src="assets/img/my-portfolio/projects/leitnerscape-logo-whitebg.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="https://leitner-scape.herokuapp.com/" data-gallery="portfolioGallery"
-                  target=”_blank” title="View Leitner-scape site"><i class="bx bx-link"></i></a>
-                <a href="https://github.com/E-F-III/Brainscape-Clone" title="Project Repo" target=”_blank”><i class='bx bxl-github'></i></a>
+                <a href="https://leitner-scape.herokuapp.com/" data-gallery="portfolioGallery" target="_blank"
+                  title="View Leitner-scape site"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/E-F-III/Brainscape-Clone" title="Project Repo" target="_blank"><i
+                    class='bx bxl-github'></i></a>
               </div>
             </div>
           </div>
@@ -533,7 +576,7 @@
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper"> -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -546,9 +589,9 @@
                 <h4>Ceo &amp; Founder</h4>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -561,9 +604,9 @@
                 <h4>Designer</h4>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -576,9 +619,9 @@
                 <h4>Store Owner</h4>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -591,9 +634,9 @@
                 <h4>Freelancer</h4>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -606,9 +649,9 @@
                 <h4>Entrepreneur</h4>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-          <!-- </div>
+    <!-- </div>
           <div class="swiper-pagination"></div>
         </div>
 
@@ -637,7 +680,13 @@
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
+                <h4>Business Email:</h4>
+                <p>efiii.creates@gmail.com</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Personal Email:</h4>
                 <p>edomfel3@gmail.com</p>
               </div>
 
@@ -647,6 +696,13 @@
                 <p>(808) 724-5640</p>
               </div>
 
+              <div class="linkedin">
+                <i class="bi bi-linkedin"></i>
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/efiii/" target="_blank">https://www.linkedin.com/in/efiii/</a>
+                </p>
+              </div>
+
               <!-- <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
                 frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
@@ -654,7 +710,7 @@
 
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
@@ -681,7 +737,7 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
-          </div>
+          </div> -->
 
         </div>
 
