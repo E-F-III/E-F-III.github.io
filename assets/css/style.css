@@ -1111,9 +1111,9 @@ section {
 .skill-logo-container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px 0px;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 .section-title > h3 {
@@ -1125,8 +1125,8 @@ section {
 }
 
 .skill-logo {
-  font-size: 125px;
-  /* margin: 40px; */
+  font-size: 100px;
+  margin: 10px;
 }
 
 .resume-button {
