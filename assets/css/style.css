@@ -228,8 +228,9 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  /* background: url("../img/my-portfolio/bg_hiking.jpg") top center; */
-  background: url("../img/my-portfolio/hero-bgv2.png") top center;
+  /* background: url("../img/my-portfolio/hero-bgv2.png") top center; */
+  background: url("../img/my-portfolio/20230618_170232.jpg") top center;
+  /* background: url("../img/my-portfolio/G0126421.JPG") top center; */
   background-size: cover;
 }
 
